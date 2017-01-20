@@ -11,7 +11,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <mvc:default-servlet-handler/>
-    <mvc:resources mapping="/resources/**" location="/WEB-INF/resources/"/>
+    <!--<mvc:resources mapping="/resources/**" location="/resources/"/>-->
     <mvc:interceptors>
         <mvc:interceptor>
             <!--路径映射必须在bean的前面-->

@@ -11,7 +11,7 @@
         <param-value>classpath:spring-config.xml</param-value>
     </context-param>
     <servlet>
-        <servlet-name>springServlet</servlet-name>
+        <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -19,8 +19,8 @@
         </init-param>
     </servlet>
     <servlet-mapping>
-        <servlet-name>springServlet</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
     <filter>
         <filter-name>encodingFilter</filter-name>
