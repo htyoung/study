@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Hello world!
  */
 public class DemoRpc {
+
     @Autowired
     private DemoService demoService;
 
