@@ -10,7 +10,8 @@
     <modules>
         <module>design-pattern</module>
         <module>webapp</module>
-        <module>dubbo-demo</module>
+        <module>dubbo-api</module>
+        <module>dubborpc</module>
     </modules>
 
     <properties>
