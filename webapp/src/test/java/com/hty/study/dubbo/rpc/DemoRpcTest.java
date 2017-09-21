@@ -12,7 +12,7 @@ public class DemoRpcTest {
 
 
     @Test
-    public void sayHello() {
+    public void testSayHello() {
         new DemoRpc().sayHello();
     }
 }
