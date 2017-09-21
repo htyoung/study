@@ -2,10 +2,9 @@ package com.hty.study.dubbo.rpc;
 
 import com.hty.study.dubbo.api.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-/**
- * Hello world!
- */
+@Service
 public class DemoRpc {
 
     @Autowired
