@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class DemoRpc {
     @Autowired
-    DemoService demoService;
+    private DemoService demoService;
 
     public void sayHello() {
         System.out.println(demoService.sayHello("abc"));
