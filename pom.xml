@@ -11,7 +11,7 @@
         <module>design-pattern</module>
         <module>webapp</module>
         <module>dubbo-api</module>
-        <module>dubborpc</module>
+        <module>dubbo-rpc</module>
     </modules>
 
     <properties>
