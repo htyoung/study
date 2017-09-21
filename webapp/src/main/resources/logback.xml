@@ -29,7 +29,7 @@
             <pattern>%d %-5level [%thread] %logger{20} - %msg%n</pattern>
         </encoder>
     </appender>-->
-    <root level="DEBUG">
+    <root level="INFO">
         <!--<appender-ref ref="FILE"/>-->
         <!--<appender-ref ref="FILE-ERROR"/>-->
         <appender-ref ref="STDOUT"/>
