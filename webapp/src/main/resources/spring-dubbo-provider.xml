@@ -2,10 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
     <dubbo:application name="demo-provider"/>
     <dubbo:registry address="multicast://224.5.6.7:1234"/>
     <dubbo:protocol name="dubbo" port="20880"/>
-    <dubbo:service interface="com.hty.study.dubbo.api.DemoService" ref="demoService"/>
-    <bean id="demoService" class="com.hty.study.service.impl.DemoServiceImpl"/>
+    <dubbo:service interface="com.hty.study.dubbo.api.DemoService" ref="demoServiceImpl"/>
+    <bean id="demoServiceImpl" class="com.hty.study.service.impl.DemoServiceImpl"/>
 </beans>
