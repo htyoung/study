@@ -1,4 +1,4 @@
-package com.hty.study.dubbo.rpc.designpattern.factory;
+package com.hty.study.designpattern.factory;
 
 /**
  * Created by tongyang.hty on 2017/1/9.

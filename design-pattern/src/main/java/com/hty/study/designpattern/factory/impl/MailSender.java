@@ -1,6 +1,6 @@
-package com.hty.study.dubbo.rpc.designpattern.factory.impl;
+package com.hty.study.designpattern.factory.impl;
 
-import com.hty.study.dubbo.rpc.designpattern.factory.Sender;
+import com.hty.study.designpattern.factory.Sender;
 
 /**
  * Created by hantongyang on 2017/1/9.

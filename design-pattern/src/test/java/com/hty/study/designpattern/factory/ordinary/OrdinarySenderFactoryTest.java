@@ -1,6 +1,6 @@
-package com.hty.study.dubbo.rpc.designpattern.factory.ordinary;
+package com.hty.study.designpattern.factory.ordinary;
 
-import com.hty.study.dubbo.rpc.designpattern.factory.Sender;
+import com.hty.study.designpattern.factory.Sender;
 import org.junit.Test;
 
 /**

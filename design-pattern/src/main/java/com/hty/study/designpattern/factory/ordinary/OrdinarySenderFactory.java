@@ -1,8 +1,8 @@
-package com.hty.study.dubbo.rpc.designpattern.factory.ordinary;
+package com.hty.study.designpattern.factory.ordinary;
 
-import com.hty.study.dubbo.rpc.designpattern.factory.Sender;
-import com.hty.study.dubbo.rpc.designpattern.factory.impl.MailSender;
-import com.hty.study.dubbo.rpc.designpattern.factory.impl.SmsSender;
+import com.hty.study.designpattern.factory.Sender;
+import com.hty.study.designpattern.factory.impl.MailSender;
+import com.hty.study.designpattern.factory.impl.SmsSender;
 
 /**
  * Created by hantongyang on 2017/1/9.

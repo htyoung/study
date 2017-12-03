@@ -1,4 +1,4 @@
-package com.hty.study.dubbo.rpc.designpattern.factory.staticfact;
+package com.hty.study.designpattern.factory.staticfact;
 
 import org.junit.Test;
 

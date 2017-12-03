@@ -1,4 +1,4 @@
-package com.hty.study.dubbo.rpc.designpattern.factory.multiple;
+package com.hty.study.designpattern.factory.multiple;
 
 import org.junit.Test;
 
